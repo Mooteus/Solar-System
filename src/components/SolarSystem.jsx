@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Title from './Title';
 import './style.css';
 
-class SolarSystem extends React.Component {
+class SolarSystem extends Component {
   render() {
     return (
       <div data-testid="solar-system">
