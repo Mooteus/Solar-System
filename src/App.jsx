@@ -1,8 +1,21 @@
 import React from 'react';
+import './styles/main.scss';
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
+
+import Header from './components/Header';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
