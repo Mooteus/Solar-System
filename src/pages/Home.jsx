@@ -1,6 +1,9 @@
 import React from 'react';
-import Header from '../components/Header';
+
 import video from '../assets/stars.mp4';
+
+import Header from '../components/Header';
+import SolarSystem from '../components/SolarSystem';
 
 function Home() {
   return (
@@ -9,6 +12,7 @@ function Home() {
         <source src={video} type="video/mp4" />
       </video>
       <Header />
+      <SolarSystem />
     </>
   );
 }
