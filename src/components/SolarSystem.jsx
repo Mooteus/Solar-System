@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Title from './Title';
+
 function SolarSystem() {
   return (
     <div className="solar-system">
-      <h1>solar system</h1>
+      <Title headline="Planetas" />
     </div>
   );
 }
