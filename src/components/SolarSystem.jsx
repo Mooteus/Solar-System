@@ -3,6 +3,7 @@ import Planets from '../data/planets';
 
 import Title from './Title';
 import PlanetCard from './PlanetCard';
+import Missions from './Missions';
 
 function SolarSystem() {
   return (
@@ -13,6 +14,7 @@ function SolarSystem() {
           <PlanetCard planetName={name} planetImage={image} />
         ))}
       </div>
+      <Missions />
     </div>
   );
 }

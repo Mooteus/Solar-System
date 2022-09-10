@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   font-size: 25px;
+
   h1 {
     color: white;
   }
@@ -30,23 +31,3 @@
   color: white;
 }
 
-.planets-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-
-  img {
-    width: 10vw;
-  }
-
-  p {
-    font-weight: bold;
-  }
-}
-
-.planet-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
