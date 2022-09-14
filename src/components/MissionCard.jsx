@@ -5,7 +5,7 @@ function MissionCard({
   name, year, country, destination,
 }) {
   return (
-    <div>
+    <div className="mission-card">
       <p>{name}</p>
       <p>{year}</p>
       <p>{country}</p>

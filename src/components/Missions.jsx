@@ -8,11 +8,13 @@ function Mission() {
   return (
     <div className="missions-container">
       <Title headline="Missões" />
-      {Missions.map(({
-        name, year, country, destination,
-      }) => (
-        <MissionCard name={name} year={year} country={country} destination={destination} />
-      ))}
+      <div className="missions-cards-container">
+        {Missions.map(({
+          name, year, country, destination,
+        }) => (
+          <MissionCard name={name} year={year} country={country} destination={destination} />
+        ))}
+      </div>
     </div>
   );
 }
