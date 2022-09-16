@@ -8,4 +8,10 @@ describe('Test SolarSystem', () => {
     const title = screen.getByText('Planetas');
     expect(title).toBeInTheDocument();
   });
+
+  test('02- Check missions container title', () => {
+    render(<SolarSystem />)
+    const title = screen.getByText('Missões');
+    expect(title).toBeInTheDocument();
+  });
 });
