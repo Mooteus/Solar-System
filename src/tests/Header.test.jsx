@@ -8,4 +8,10 @@ describe('1 - Check Header', () => {
     const header = screen.getByRole('banner');
     expect(header).toBeInTheDocument();
   });
+
+  test('02- Check header title', () => {
+    render(<Header />);
+    const title = screen.getByTestId('header-title');
+    expect(title).toHaveTextContent('Sistema Solar');
+  });
 });
