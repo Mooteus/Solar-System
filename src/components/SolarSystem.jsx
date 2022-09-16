@@ -11,7 +11,7 @@ function SolarSystem() {
       <Title headline="Planetas" />
       <div className="planets-container">
         {Planets.map(({ name, image }) => (
-          <PlanetCard planetName={name} planetImage={image} />
+          <PlanetCard key={name} planetName={name} planetImage={image} />
         ))}
       </div>
       <Missions />
